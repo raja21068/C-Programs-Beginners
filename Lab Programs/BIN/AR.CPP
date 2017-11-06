@@ -1,0 +1,49 @@
+#include"conio.h"
+#include"stdio.h"
+
+void main(void)
+{
+ clrscr();
+ int sum[3][3],i,j;
+ int A[3][3];
+ int B[3][3];
+
+ for(i=0; i<=2; i++){
+ printf("Enter value: ");
+  for(j=0; j<=2; j++)
+  scanf("%d",&A[i][j]);
+  printf("\n");
+ }
+ printf("\n\n\n");
+ for(i=0; i<=2; i++){
+ printf("Enter value: ");
+  for(j=0; j<=2; j++)
+  scanf("%d",&B[i][j]);
+  printf("\n");
+ }
+ printf("\n\n\n");
+
+ for(i=0; i<=2; i++){
+  for(j=0; j<=2; j++)
+  printf("%d ",A[i][j]);
+  printf("\n");
+ }
+  printf("\n\n\n");
+ for(i=0; i<=2; i++){
+  for(j=0; j<=2; j++)
+  printf("%d ",B[i][j]);
+  printf("\n");
+ }
+  printf("\n\n\n");
+
+ for(i=0; i<=2; i++){
+  for(j=0; j<=2; j++)
+   sum[i][j]=A[i][j]+B[i][j];
+  }
+  for(i=0; i<=2; i++){
+  for(j=0; j<=2; j++)
+   printf("%d ",sum[i][j]);
+   printf("\n");
+ }
+ getch();
+}

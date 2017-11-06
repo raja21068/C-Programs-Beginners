@@ -1,0 +1,31 @@
+#include"stdio.h"
+#include"conio.h"
+
+void main(void)
+
+{
+int a,b,c;
+
+clrscr();
+
+gotoxy(15,7);
+printf("\t\tThis Programs Created By\n\n\t\t\t          YOGESHWAR KHATRI \n\n\t\t\t            2k10-CSE-86");
+
+getch();
+
+clrscr();
+
+printf("\n\nPut a Value = ");
+scanf("%d",&a);
+
+b=a*a;
+c=a*a*a;
+
+printf("\n\nThe squre of the value is %d",b);
+
+printf("\n\nThe cube of the value is %d",c);
+
+printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t\t     To Exit Press Enter Key");
+getch();
+
+}

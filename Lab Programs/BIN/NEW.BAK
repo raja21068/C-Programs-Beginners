@@ -1,0 +1,15 @@
+#include"stdio.h"
+#include"conio.h"
+
+void main()
+{
+clrscr();
+char ch;
+char name[50];
+{printf("enter name");
+scanf("%s",name);
+printf("Your name is %s",name);
+
+}
+while((ch=getch()!='x');
+}

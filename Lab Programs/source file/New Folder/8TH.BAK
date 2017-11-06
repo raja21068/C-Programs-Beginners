@@ -1,0 +1,32 @@
+#include"stdio.h"
+#include"conio.h"
+
+void main(void)
+
+{
+int a,b,c;
+
+clrscr();
+gotoxy()15,7);
+printf("\t\tThis Programs Created By\n\n\t\t\t          YOGESHWAR KHATRI \n\n\t\t\t            2k10-CSE-86");
+getch();
+
+clrscr();
+
+printf("The series of real number is\n\n");
+for(a=1; a<=100; a++)
+printf(" %d",a);
+
+printf("\n\n\nThe series of even number is\n\n");
+for(b=2; b<=100; b+=2)
+printf(" %d",b);
+
+printf("\n\n\nThe series of odd number is\n\n");
+for(c=3; c<=100; c+=3)
+printf(" %d",c);
+
+printf("\n\n\n\n\n\t\t\t      To Exit Press Enter Key");
+
+getch();
+
+}

@@ -1,0 +1,15 @@
+#include"stdio.h"
+#include"conio.h"
+#include"string.h"
+void main(void)
+{
+int a;
+clrscr();
+for(a=1; a<=10; a++)
+{
+if(a%2==0)
+printf("%d is Even\n",a);
+else
+printf("%d is odd\n",a);
+}getch();
+}

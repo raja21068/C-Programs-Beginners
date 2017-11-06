@@ -1,0 +1,36 @@
+#include"stdio.h"
+#include"conio.h"
+
+void main(void){
+  clrscr();
+  int num[5];
+  int i;
+
+  for(i=0; i<5; i++){
+     printf("Enter Random Values: ");
+     scanf("%d",&num[i]);
+  }
+
+  for(i=0; i<5; i++)
+     printf("%d\n",num[i]);
+
+  printf("\n\nAfter Sorting\n\n");
+
+  for(int j=0; j<5; j++){
+     for(i=0; i<5-1; i++){
+	if(num[i]>num[i+1]){
+	  int temp=num[i];
+	  num[i]=num[i+1];
+	  num[i+1]=temp;
+	}
+     if(num[0]<num[1]&&num[1]<num[2]&&num[2]<num[3]&&num[3]<num[4])
+       break;
+     }
+     if(num[0]<num[1]&&num[1]<num[2]&&num[2]<num[3]&&num[3]<num[4])
+       break;
+  }
+  for(i=0; i<5; i++)
+     printf("%d\n",num[i]);
+
+  getch();
+}

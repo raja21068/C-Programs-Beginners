@@ -1,0 +1,100 @@
+#include"conio.h"
+#include"stdio.h"
+
+void main(void)
+{
+ clrscr();
+   // IN FOR
+
+ printf("IN FOR\n\n");
+
+ for(int a=1; a<=10; a++)
+   printf("@");
+
+ printf("\n");
+ for(a=3; a<=8; a++)
+   printf("%d#",a);
+
+ printf("\n");
+ for(a=10; a>=2; a--)
+  printf("%d,",a);
+
+ printf("\n");
+ for(a=5; a<=30; a+=5)
+  printf("%d,",a);
+
+  printf("\n\n\n\n");
+
+   //IN WHILE
+  printf("IN WHILE\n\n");
+
+  int b=1;
+  while(b<=10)
+   {
+    printf("@");
+    b++;
+   }
+
+ printf("\n");
+
+ int b1=3;
+ while(b1<=8)
+  {
+   printf("%d#",b1);
+   b1++;
+  }
+ printf("\n");
+
+ int b2=10;
+ while(b2>=2)
+  {
+   printf("%d,",b2);
+   b2--;
+  }
+ printf("\n");
+
+ int b3=5;
+ while(b3<=30)
+  {
+   printf("%d,",b3);
+   b3+=5;
+  }
+ printf("\n\n\n\n");
+
+  //IN DO WHILE
+  printf("IN DO WHILE\n\n");
+
+  int c=1;
+  do
+   {
+    printf("@");
+    c++;
+   }while(c<=10);
+
+ printf("\n");
+
+ int c1=3;
+ do
+  {
+   printf("%d#",c1);
+   c1++;
+  }while(c1<=8);
+ printf("\n");
+
+ int c2=10;
+ do
+  {
+   printf("%d,",c2);
+   c2--;
+  }while(c2>=2);
+ printf("\n");
+
+ int c3=5;
+ do
+  {
+   printf("%d,",c3);
+   c3+=5;
+  }while(c3<=30);
+
+ getch();
+}

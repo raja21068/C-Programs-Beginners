@@ -1,0 +1,31 @@
+#include "stdio.h"
+#include "conio.h"
+#include "string.h"
+
+ int BinToDec(char *binary){
+  int decimal=0;
+  int count=1;
+
+  int length = strlen(binary);
+
+  for(int i=length-1; i>=0; i--){
+    if(binary[i]=='1')
+      decimal+=count;
+
+    count+=count;
+  }
+    printf("\n\nDecimal value is: %d",decimal);
+ }
+
+
+void main(){
+ clrscr();
+ char binary[10];
+
+ printf("Enter Binary number: ");
+ gets(binary);
+
+ BinToDec(binary);
+
+getch();
+}

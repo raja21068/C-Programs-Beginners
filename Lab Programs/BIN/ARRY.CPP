@@ -1,0 +1,31 @@
+#include"conio.h"
+#include"stdio.h"
+
+int A[10];
+
+int add(void)
+{ int a,sum=0;
+ for(a=0; a<=10; a++)
+ sum+=A[a];
+ return sum;
+}
+
+void main(void)
+{
+clrscr();
+int a,b;
+
+for(a=0; a<=10; a++)
+{
+printf("Enter value = ");
+scanf("%d",&A[a]);
+}
+
+for(a=0; a<=10; a++)
+printf("%d\n",A[a]);
+
+b=add();
+printf("%d",b);
+
+getch();
+}

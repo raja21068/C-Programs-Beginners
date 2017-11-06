@@ -1,0 +1,23 @@
+#include"conio.h"
+#include"stdio.h"
+#define Pi 3.14
+void main(void)
+{
+ clrscr();
+ int radius,height;
+ float calc;
+
+ printf("area of the top \xE3r\xFD \n area of the bottom \xE3r\xFD \n area of the side 2\xE3rh");
+
+ printf("\n\nEnter radius = ");
+ scanf("%d",&radius);
+
+ printf("\nEnter height = ");
+ scanf("%d",&height);
+
+ calc=Pi*radius*radius*height;
+
+ printf("\n\nThe voulme of Cylinder is %.2f",calc);
+
+ getch();
+}

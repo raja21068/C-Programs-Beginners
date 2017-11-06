@@ -1,0 +1,20 @@
+#include"stdio.h"
+#include"conio.h"
+
+void main(void)
+
+{
+
+int a;
+
+clrscr();
+
+printf("\n\nThe series of Odd number is\n\n\n");
+
+for(a=1; a<=100; a+=2)
+
+printf(" %d",a);
+
+getch();
+
+}

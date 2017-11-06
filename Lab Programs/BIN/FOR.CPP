@@ -1,0 +1,15 @@
+#include"stdio.h"
+#include"conio.h"
+#include"string.h"
+void main(void)
+
+{
+int a;
+char b;
+clrscr();
+
+printf("\n\nPut the Sentence : ");
+scanf("%s",&b);
+
+getch();
+}

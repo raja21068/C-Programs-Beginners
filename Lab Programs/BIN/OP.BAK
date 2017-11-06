@@ -1,0 +1,21 @@
+	#include "stdio.h"
+	#include "conio.h"
+
+	int add(int a)
+	{
+	if(a%2==0)
+	return a+1;
+	else if (a%2==1)
+	return a;
+	}
+	void main(void)
+	{
+	int c,d;
+	clrscr();
+	printf("Enter Value = ");
+	scanf("%d",&c)
+	d=add(c);
+	printf("the result is %d",d);
+	getch();
+	}
+

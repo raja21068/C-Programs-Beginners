@@ -1,0 +1,81 @@
+#include "stdio.h"
+#include "conio.h"
+#include "math.h"
+
+	void main (void)
+
+	{
+			//Part I
+
+	float e,e1,m,c,a,b,y;
+
+	clrscr();
+
+	printf("\n\n\tThe solution of E=MC2 will be \t");
+
+	printf("\n\n\tEnter the value of M = ");
+	scanf("%f",&m);
+
+
+	printf("\n\n\tEnter the value of C = ");
+	scanf("%f",&c);
+
+	e=m*(c*c);
+
+	printf("\n\n\tThe result would be = %.1f ",e);
+
+	printf("\n\n\n\n\t\tPress Enter Key for next program");
+	getch();
+
+		// Part II
+
+	clrscr();
+
+	printf("\n\n\tThe solution of the Quadratic Formula");
+
+	printf("\n\n\tEnter the Value of b = ");
+	scanf("%f",&b);
+
+	printf("\n\n\tEnter The Value of a = ");
+	scanf("%f",&a);
+
+	printf("\n\n\tThe Value of c = ");
+	scanf("%f",&c);
+
+	m=sqrt(b*b-4*a*c);
+
+	e=-b+m/2*a;
+
+	e1=-b-m/2*a;
+
+	printf("\n\n\n\tThe First Result = %.1f ",e);
+
+
+	printf("\n\n\n\tThe Second Result = %.1f",e1);
+
+	getch();
+
+
+			//Part III
+
+	y=(a*a)+(b*b)+(c*c);
+
+	printf("\n\n\tThe Equation is Y = a2+b2+c2 ");
+	printf("\n\n\tThe solution will be ");
+
+
+	printf("\n\n\tPut the value of a ");
+	scanf("%f",&a);
+
+	printf("\n\n\tPut the value of b ");
+	scanf("%f",&b);
+
+	printf("\n\n\tPut the value of c ");
+	scanf("%f",&c);
+
+	printf("\n\n\tThe Result would be = ");
+	getch();
+
+
+
+	}

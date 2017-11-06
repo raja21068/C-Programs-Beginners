@@ -1,0 +1,117 @@
+         //calculation programe
+#include "stdio.h"
+#include "conio.h"
+void add (void)
+{
+int a;
+int b;
+int c;
+
+ printf("Enter any number =");
+scanf("%d",&a);
+ 
+printf("Enter any number =");
+scanf("%d",&b);
+ 
+c=a+b;
+printf("the result =%d",c);
+}
+void subtract (void)
+{
+int a;
+int b;
+int c;
+
+printf("Enter any number =");
+scanf("%d",&a);
+
+printf("Enter any number =");
+scanf("%d",&b);
+c=a-b;
+printf("the result =%d",c);
+}
+void divide (void)
+{
+int a;
+int b;
+int c;
+
+printf("Enter any number =");
+scanf("%d",&a);
+
+printf("Enter any number =");
+scanf("%d",&b);
+c=a/b;
+printf("the result =%d",c);
+}
+void multiply (void)
+{
+int a;
+int b;
+int c;
+ printf("Enter any number =");
+scanf("%d",&a);
+ 
+printf("Enter any number =");
+ scanf("%d",&b);
+ 
+c=a*b;
+printf("the result =%d",c);
+}
+
+void main (void)
+
+{
+
+int option;
+
+while(option !=0)
+
+{
+
+clrscr();
+ 
+printf("Enter any key for calculation\n"); 
+printf("1-addition\n");
+printf("2-subtraction\n");
+printf("3-division\n");
+printf("4-multiplication\n");
+printf("0-exit\n"); 
+scanf("%d",&option);
+switch (option)
+  {
+case 1:
+add ();
+   printf("\nprees any to continue.......");
+getch();
+break;
+
+  case 2:
+   subtract ();
+printf("\nprees any to continue......."); 
+  getch();
+break;
+ 
+case 3:
+   divide ();
+printf("\nprees any to continue.......");
+   getch();
+break;
+
+case 4:
+   multiply ();
+printf("\nprees any to continue.......");
+getch();
+break;  
+default:
+   if(option !=0)
+{
+    printf("invalid option...........zeero to exit");  
+  getch();
+   }
+}//End of switch
+}//End of while
+clrscr();
+printf("thanx to use the calculation program");
+getch();
+}//End for main function

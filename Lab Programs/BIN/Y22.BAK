@@ -1,0 +1,30 @@
+#include"conio.h"
+#include"stdio.h"
+
+int WIN(int x)
+{
+ int y=0;
+
+ for(int i=1; i<=x; i++)
+   y+=x%i==0;
+
+ return y;
+}
+
+void main(void)
+{
+ clrscr();
+ int a,b;
+
+ printf("Enter no. = ");
+ scanf("%d",&a);
+
+ b=WIN(a);
+
+ if(b==2)
+  printf("The no is prime");
+   else
+    printf("No is not prime");
+
+ getch();
+}

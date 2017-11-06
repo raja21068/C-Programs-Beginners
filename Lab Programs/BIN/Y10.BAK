@@ -1,0 +1,10 @@
+#include"conio.h"
+#include"stdio.h"
+
+void main(void)
+{
+ clrscr();
+A cylinder  with radius r units and height h units has a volume  of V cubic units given by
+v= ^r2h
+ getch();
+}

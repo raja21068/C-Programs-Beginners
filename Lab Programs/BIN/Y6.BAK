@@ -1,0 +1,24 @@
+#include"conio.h"
+#include"stdio.h"
+
+void main(void)
+{
+ clrscr();
+ int sum1=0,sum2=0;
+
+ for(int a=1; a<=15; a+=2)
+  {
+   printf("%d+",a);
+   sum1+=a;
+  }
+ printf(" = %d\n\n",sum1);
+
+ for(a=3; a<=99; a+=3)
+  {
+   printf("%d+",a);
+   sum2+=a;
+  }
+ printf(" = %d",sum2);
+
+ getch();
+}

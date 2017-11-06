@@ -1,0 +1,20 @@
+// Q 22
+
+#include "stdio.h"
+#include "conio.h"
+
+void main(void)
+{
+int a,b,fact,n;
+clrscr();
+printf("Put the value = ");
+scanf("%d",&a);
+
+fact=1;
+for(b=a; b>=1; b--)
+{
+fact=fact*b;
+}
+printf("%d is %d\n",a,fact);
+getch();
+}

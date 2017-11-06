@@ -1,0 +1,16 @@
+	#include "stdio.h"
+	#include "conio.h"
+
+	void main (void)
+	{
+	clrscr();
+	int a,b=10,c;
+
+	while(b>3)
+	{
+	printf("%d\n",b);
+	b--;
+	}
+
+	getch();
+	}

@@ -1,0 +1,17 @@
+#include"conio.h"
+#include"stdio.h"
+#include"string.h"
+
+void main(void)
+{
+ char name[20];
+ clrscr();
+
+ printf("Enter your name = ");
+ gets(name);
+
+ printf("the lenght of the name is %d",strlen(name));
+
+
+ getch();
+}
